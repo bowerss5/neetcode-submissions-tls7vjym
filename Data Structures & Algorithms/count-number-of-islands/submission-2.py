@@ -28,7 +28,6 @@ class Solution:
                         if grid[w[0]][w[1]] == "0" or w in seen:
                             continue
                         queue.append(w)
-                        print(w, grid[w[0]][w[1]])
 
         count = 0
 
